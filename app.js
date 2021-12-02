@@ -1,7 +1,15 @@
-const calculator = require('./calculator.js')
+// const calculator = require('./calculator.js')
 
-const operation = process.argv[2]
-const a = process.argv[3]
-const b = process.argv[4]
+// const operation = process.argv[2]
+// const a = process.argv[3]
+// const b = process.argv[4]
 
-calculator(operation, a, b)
+// calculator(operation, a, b)
+
+const movies = require('./movies.js')
+
+const display = arr => {
+  arr.forEach(elem => console.log(elem))
+}
+
+display(movies)
