@@ -1,5 +1,7 @@
-console.log('hi')
+const calculator = require('./calculator.js')
 
-const name = process.argv[2]
+const operation = process.argv[2]
+const a = process.argv[3]
+const b = process.argv[4]
 
-console.log(`Hello ${name}!`)
+calculator(operation, a, b)
